@@ -184,6 +184,11 @@
  *              -----                                             -----
  *              EXP2                                              EXP1
  */
+
+#define MAX6675_SS_PIN     P0_16
+#define MAX6675_SCK_PIN    P0_15
+#define MAX6675_DO_PIN     P0_17
+
 #if HAS_SPI_LCD
   #define BEEPER_PIN       P1_30   // (37) not 5V tolerant
   #define BTN_ENC          P0_28   // (58) open-drain
